@@ -2,3 +2,7 @@ body {
   background-color: rgb(40, 40, 40);
   color: #fff;
 }
+.main_image {
+  width: 50dp;
+  height: 50dp;
+}
