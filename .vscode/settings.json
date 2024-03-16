@@ -1,0 +1,15 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.matchBrackets": "always",
+
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#232323"
+  },
+  "highlight-matching-tag.leftStyle": {
+    "borderWidth": "0 0 0 3px",
+    "borderStyle": "dotted",
+    "borderColor": "red",
+    "borderRadius": "5px"
+  }
+}
