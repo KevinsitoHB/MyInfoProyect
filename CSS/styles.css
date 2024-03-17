@@ -1,11 +1,63 @@
 * {
-  font-family: "Montserrat Alternates", sans-serif !important;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat Alternates", sans-serif !important;
 }
+
 body {
-  background-color: rgb(40, 40, 40);
-  color: #fff;
+	background-color: #081b29;
+	color: #fff;
+	align-items: center;
 }
-.main_image {
-  width: 50dp;
-  height: 50dp;
+
+.header {
+	position: fixed;
+	width: 93%;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 35px;
+	color: #ededed;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.navbar a {
+	font-size: 22px;
+	color: #ededed;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+}
+
+.main {
+	/* VIEWPORT'S HEIGHT 100vh Toma la altura completa del padre */
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 20%;
+}
+
+.main-content h1 {
+	font-size: 70px;
+	font-weight: 700;
+	padding: 10px 0;
+}
+
+.main-content h3 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #b6dcf7;
+	padding: 10px 0;
+}
+
+.main-content p {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ededed;
+	padding: 10px 0;
 }
