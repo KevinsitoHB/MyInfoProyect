@@ -71,17 +71,18 @@ body {
 
 .main-image {
 	width: 350px;
-	border: #00abf0 solid 2px;
+	border: #00abf0 solid 1px;
 	height: auto;
 	border-radius: 20%;
 
 }
 
 .imagenesPrincipal {
-	border-radius: 20%;
+	border-radius: 50%;
 	width: auto;
-	border: #00abf0 solid 2px;
+	border: #00abf0 solid 1px;
 	height: 300px;
+	width: 300px;
 
 }
 
@@ -92,6 +93,13 @@ body {
 	display: ruby-text;
 }
 
+.imagenesPrincipalFather {
+	margin: 60px 0 60px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
 
 .navbar a:hover {
 	color: #00abf0;
@@ -112,6 +120,17 @@ body {
 	text-decoration: none;
 	font-weight: 700;
 	letter-spacing: 2px;
+}
+
+.gitHubBtnDiv {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.gitHubBtn:hover {
+	background-color: #00abf0;
+	animation: aparecer 1s;
 }
 
 /* @MEDIA QUERYS -------------------> */
