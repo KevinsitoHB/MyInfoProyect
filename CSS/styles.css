@@ -14,7 +14,7 @@ body {
 	background-color: #081b29;
 	color: #fff;
 	align-items: center;
-	animation: aparecer 2s;
+	/* animation: aparecer 2s; */
 }
 
 .header {
@@ -29,14 +29,14 @@ body {
 
 .logo {
 	font-size: 35px;
-	color: #ededed;
+	color: #fff;
 	text-decoration: none;
 	font-weight: 700;
 }
 
 .navbar a {
 	font-size: 22px;
-	color: #ededed;
+	color: #fff;
 	text-decoration: none;
 	font-weight: 500;
 	margin-left: 40px;
@@ -57,7 +57,7 @@ body {
 .mainSubHeading {
 	font-size: 40px;
 	font-weight: 700;
-	color: #b6dcf7;
+	color: #00abf0;
 	padding: 10px 0;
 	align-items: center;
 }
@@ -65,17 +65,26 @@ body {
 .main-content p {
 	font-size: 30px;
 	font-weight: 700;
-	color: #ededed;
+	color: #fff;
 	padding: 10px 0;
 }
 
 .main-image {
 	width: 350px;
-	border: #ededed solid 2px;
+	border: #00abf0 solid 2px;
 	height: auto;
 	border-radius: 20%;
 
 }
+
+.imagenesPrincipal {
+	border-radius: 20%;
+	width: auto;
+	border: #00abf0 solid 2px;
+	height: 300px;
+
+}
+
 
 .main-image-father {
 	align-items: center;
@@ -85,10 +94,25 @@ body {
 
 
 .navbar a:hover {
-	color: #818c94;
+	color: #00abf0;
 
 }
 
+.gitHubBtn {
+	width: 150px;
+	height: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	border: 2px solid #00abf0;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
 
 /* @MEDIA QUERYS -------------------> */
 /* TELEFONOS */
