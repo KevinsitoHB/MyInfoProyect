@@ -120,8 +120,9 @@ body {
 }
 
 .gitHubBtn {
-	width: 150px;
-	height: 50px;
+	width: 200px;
+	height: 60px;
+	margin-left: 25px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -129,7 +130,7 @@ body {
 	border: 2px solid var(--secondaryColor);
 	border-radius: 10px;
 	color: #fff;
-	font-size: 20px;
+	font-size: 35px;
 	text-decoration: none;
 	font-weight: 700;
 	letter-spacing: 2px;
