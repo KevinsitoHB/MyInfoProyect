@@ -179,6 +179,10 @@ body {
 		height: 330px;
 		width: auto;
 	}
+
+	.gitHubBtnDiv {
+		display: grid;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
