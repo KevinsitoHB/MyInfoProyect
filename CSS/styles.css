@@ -68,17 +68,12 @@ body {
 	padding: 15px 0;
 }
 
-.font45Blue {
+.text45pxBlue700 {
 	font-size: 45px;
 	font-weight: 700;
 	color: var(--secondaryColor);
 	padding: 10px 0;
 	align-items: center;
-}
-
-.listAcercaDeMi {
-	padding: 15px;
-	font-size: 30px;
 }
 
 .main-image {
