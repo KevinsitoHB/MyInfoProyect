@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--mainColor: #081b29;
+	--secondaryColor: #00abf0;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -11,7 +16,7 @@
 }
 
 body {
-	background-color: #081b29;
+	background-color: var(--mainColor);
 	color: #fff;
 	align-items: center;
 	/* animation: aparecer 2s; */
@@ -24,7 +29,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #081b29;
+	background-color: var(--mainColor);
 }
 
 .logo {
@@ -59,7 +64,7 @@ body {
 .mainSubHeading {
 	font-size: 40px;
 	font-weight: 700;
-	color: #00abf0;
+	color: var(--secondaryColor);
 	padding: 10px 0;
 	align-items: center;
 }
@@ -73,7 +78,7 @@ body {
 
 .main-image {
 	width: 350px;
-	border: #00abf0 solid 1px;
+	border: var(--secondaryColor) solid 1px;
 	height: auto;
 	border-radius: 20%;
 
@@ -81,7 +86,7 @@ body {
 
 .imagenesPrincipal {
 	border-radius: 50%;
-	border: #00abf0 solid 1px;
+	border: var(--secondaryColor) solid 1px;
 	height: 300px;
 	width: 300px;
 }
@@ -110,7 +115,7 @@ body {
 }
 
 .navbar a:hover {
-	color: #00abf0;
+	color: var(--secondaryColor);
 
 }
 
@@ -121,7 +126,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	background-color: transparent;
-	border: 2px solid #00abf0;
+	border: 2px solid var(--secondaryColor);
 	border-radius: 10px;
 	color: #fff;
 	font-size: 20px;
@@ -137,7 +142,7 @@ body {
 }
 
 .gitHubBtn:hover {
-	background-color: #00abf0;
+	background-color: var(--secondaryColor);
 	animation: aparecer 1s;
 }
 
