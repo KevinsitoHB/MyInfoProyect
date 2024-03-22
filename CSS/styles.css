@@ -156,9 +156,14 @@
  /* @MEDIA QUERYS -------------------> */
  /* TELEFONOS */
  @media screen and (max-width: 767px) {
- 	/* body {
-		background-color: red;
-	} */
+
+ 	#mainName {
+ 		font-size: 60px;
+ 	}
+
+ 	.ulPropiedades {
+ 		padding-left: 30px;
+ 	}
 
  	.main {
  		padding: 200px 20px 200px 20px;
