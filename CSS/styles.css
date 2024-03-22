@@ -63,6 +63,7 @@
  	background: linear-gradient(to right, #FFF, var(--secondaryColor));
  	-webkit-text-fill-color: transparent;
  	-webkit-background-clip: text;
+ 	background-clip: text;
  }
 
  .text30pxWhite700 {
